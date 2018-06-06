@@ -1,5 +1,5 @@
 # ruby-graph
-##### Aplicação de apoio para gerar grafos a partir de uma entrada predefinida
+##### Trabalho da disciplina de Algoritmos e Estrutura de Dados II, desenvolvido a partir da branch de [apoio](https://github.com/marlonfurtado/projects-graph/tree/master)
 
 ###### Entrada:  
 > 10  
