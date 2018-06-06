@@ -1,0 +1,103 @@
+digraph RGL__DirectedAdjacencyGraph {
+    "NAL 3" [
+        fontsize = 8,
+        label = "NAL 3"
+    ]
+
+    "TUM 4" [
+        fontsize = 8,
+        label = "TUM 4"
+    ]
+
+    "GGW 9" [
+        fontsize = 8,
+        label = "GGW 9"
+    ]
+
+    "SQD 10" [
+        fontsize = 8,
+        label = "SQD 10"
+    ]
+
+    "YUY 15" [
+        fontsize = 8,
+        label = "YUY 15"
+    ]
+
+    "QMR 17" [
+        fontsize = 8,
+        label = "QMR 17"
+    ]
+
+    "FPK 16" [
+        fontsize = 8,
+        label = "FPK 16"
+    ]
+
+    "GMZ 15" [
+        fontsize = 8,
+        label = "GMZ 15"
+    ]
+
+    "WNJ 12" [
+        fontsize = 8,
+        label = "WNJ 12"
+    ]
+
+    "MCX 3" [
+        fontsize = 8,
+        label = "MCX 3"
+    ]
+
+    "NAL 3" -> "GMZ 15" [
+        fontsize = 8
+    ]
+
+    "TUM 4" -> "GMZ 15" [
+        fontsize = 8
+    ]
+
+    "GGW 9" -> "TUM 4" [
+        fontsize = 8
+    ]
+
+    "SQD 10" -> "NAL 3" [
+        fontsize = 8
+    ]
+
+    "SQD 10" -> "GGW 9" [
+        fontsize = 8
+    ]
+
+    "YUY 15" -> "SQD 10" [
+        fontsize = 8
+    ]
+
+    "YUY 15" -> "MCX 3" [
+        fontsize = 8
+    ]
+
+    "QMR 17" -> "NAL 3" [
+        fontsize = 8
+    ]
+
+    "QMR 17" -> "GGW 9" [
+        fontsize = 8
+    ]
+
+    "FPK 16" -> "YUY 15" [
+        fontsize = 8
+    ]
+
+    "FPK 16" -> "MCX 3" [
+        fontsize = 8
+    ]
+
+    "WNJ 12" -> "GMZ 15" [
+        fontsize = 8
+    ]
+
+    "MCX 3" -> "GMZ 15" [
+        fontsize = 8
+    ]
+}

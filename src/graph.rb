@@ -1,5 +1,8 @@
+require 'rgl/base'
+require 'rgl/traversal'
 require 'rgl/dot'
 require 'rgl/adjacency'
+require 'rgl/mutable'
 require_relative "reader"
 
 class Graph
@@ -53,8 +56,9 @@ class Graph
       weight = arr[2].to_i
 
       @edge_weights.store([fromNode, toNode], weight)
+      @graph.add_edge(fromNode, toNode)
     end
 
-    @edge_weights.each { |(from, to), w| @graph.add_edge(from, to) }
+    # @edge_weights.each { |(from, to), w| @graph.add_edge(from, to) }
   end
 end
