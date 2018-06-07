@@ -1,6 +1,13 @@
 # ruby-graph
 ##### Trabalho da disciplina de Algoritmos e Estrutura de Dados II, desenvolvido a partir da branch de [apoio](https://github.com/marlonfurtado/projects-graph/tree/master)
 
+### Running
+ - Instalar as dependencias: `bundle install`
+ - Rodar a aplicação:  `ruby src/app.rb`
+ - Escolher o caso de teste (opcional):  `ruby src/app.rb caso0100`
+
+### Dados
+
 ###### Entrada:  
 > 10  
 NAL 3  
@@ -29,4 +36,4 @@ GMZ NAL 1
 TUM GGW 2    
   
 ###### Saída:
-![graph-caso0000](https://raw.githubusercontent.com/marlonfurtado/projects-graph/master/img/caso0000.png) 
+![graph-caso0000](https://raw.githubusercontent.com/marlonfurtado/projects-graph/t2-alest/img/caso0000.png) 
